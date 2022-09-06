@@ -1,0 +1,86 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	
+	
+	background-image: linear-gradient(to right,#5bccf6,#fcde67) ;
+	
+	font-family: cursive;
+	background-size :cover;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#5bccf6,#fcde67) ;
+	/*background-color: #5bccf6*/
+}	
+.navbar-brand img{
+	height: 30px;
+	padding-left: 40px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	text-shadow: 0px 0px 9px #000000;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important
+
+}
+.navbar-toogler
+{
+	outline: none !important; 
+
+	background-color: #fcde67;
+}
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.imageText {
+    text-align: center;
+   
+}
+
+
+.container{
+	margin-top: 50px;
+}
+
+.newarrival{
+	background: green;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.cl-md-7{
+	color: #555;
+}
+.price{
+	color:#D74809 ;
+	font-size: 26px;
+	font-weight:bold;
+	
+	
+}

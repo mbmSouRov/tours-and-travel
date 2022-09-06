@@ -1,0 +1,317 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#5bccf6,#fcde67) ;
+}	
+.navbar-brand img{
+	height: 50px;
+	padding-left: 40px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-size: 20px;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	text-shadow: 0px 0px 9px #000000;
+	text-align: right;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important
+
+}
+.navbar-toogler
+{
+	outline: none !important; 
+
+	background-color: #fcde67;
+}
+#banner
+{
+	background-image: linear-gradient(to right,#5bccf6,#fcde67);
+	color: #fff;
+	padding-top: 5%;
+}
+.exploreBtn
+{
+	color: white;
+}
+.promo-title
+{
+	padding-top: 60px;
+	font-size: 30px;
+	font-weight: 600;
+	color: black;
+}
+.main-title
+{
+	padding-left: 1%;
+	top: 50%
+	right: 50%;
+	font-size: 35px;
+	color: #fcde67;
+	font-weight: 600;
+	position: absolute;
+	transform: translate(4% ,-6%); 
+	text-transform: uppercase;
+	font-family: verdana ; 
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #5bccf6,
+		1px 2px 1px #919191,
+		1px 3px 1px #919191,
+		1px 4px 1px #919191,
+		1px 5px 1px #919191,
+		1px 6px 1px #919191,
+		1px 7px 1px #919191,
+		1px 8px 1px #919191,
+		1px 9px 1px #919191,
+		1px 10px 1px #919191,
+	1px 18px 6px rgba(16,16,16,0.4),
+	1px 22px 10px rgba(16,16,16,0.2),
+	1px 25px 35px rgba(16,16,16,0.2),
+	1px 30px 60px rgba(16,16,16,0.4);
+}
+.main-title1
+{
+	font-size: 20px;
+	color: #19571B;
+	font-weight: 600;
+}
+.habijabi
+{
+	color: black !important;
+	font-size: 20px;
+	padding-top: 5%;
+}
+.curver_img
+{
+	width: 100%;
+}
+.bottom-img
+{
+	width: 100%;
+	height: 160px;
+}
+.upper-img
+{
+	width: 100%;
+	height: 100px;
+}
+
+
+#about-us
+{
+	margin-top: 20px;
+}
+.about-us-img
+{
+	width: 200px;
+	margin-top: 20px;
+}
+.about-us-img:hover
+{
+	transform: translateY(-35px);
+}
+
+.aboutUs h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+
+}
+.aboutUs-title
+{
+	font-size: 40px;
+	font-weight: 700;
+	color: #0B0113;
+	text-shadow: 0 0 20px #7E06CC;
+}
+.aboutUs-title::after
+{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	z-index: -1;
+	color: #ff005b;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+#about-us .btn-primary
+{
+	margin-bottom: 20px;
+	width: 300px;
+	height: 40px;
+	border: none;
+	color: white;
+	background-color: rgb(255,0,68);
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #f9e506;
+	transition: ease-out 0.3s;
+	font-size: 1rem;
+	outline: none;
+}	
+#about-us .btn-primary:hover
+{
+	/*transform: translateY(-2px);*/
+	box-shadow: inset 300px 0 0 0 #f9e506;
+	cursor: pointer;
+	color: #000
+}
+#team-page
+{
+	background: #f8f9fa;
+}
+.TeamTitle::before
+{
+	content:'';
+	background: #7b1789;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.TeamTitle::after
+{
+	content:'';
+	background: #7b1789;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+.productRow {
+    background-image: linear-gradient(to right,#5bccf6,#fcde67);
+    padding-top: 20px;
+}
+.row1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ExploreTitle
+{
+	text-align: center;
+	font-size: 40px;
+	color: red;
+}
+.ExploreTitleDetails
+{
+	text-align: center;
+	font-size: 20px;	
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-bottom: 20px;
+}
+.ExploreTitleE
+{
+	text-align: center;
+	font-size: 20px;
+	color: #15118B;
+}
+.row2{
+	padding-top: 20px;
+    padding-bottom: 100px;
+}
+.h4-text{
+	padding-top:20px;
+}
+.para-text{
+	color:rgb(128,128,128);
+}
+
+.para-text1 {
+    padding-top: 15px;
+}
+
+.container1
+{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	padding: 13vh 15%;
+}
+.container3
+{
+	margin-top: 30px;
+}
+.row4
+{
+	text-align: center;
+}
+.ima
+{
+	width: 100%;
+	height: 100%;
+}
+.about
+{
+	/*margin-top: 100px;
+	margin-bottom: 20px;*/
+	/*padding-top: 60px;*/
+	/*padding-bottom: 20px; */
+	background-image: linear-gradient(to right,#fcde67,#5bccf6);
+}
+.ShowOff
+{
+	background-image: linear-gradient(to right,#5bccf6,#fcde67);
+    padding-top: 10px;
+}
+.aboutus-title
+{	
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 10px;
+	text-align: center;
+	color: red;
+}
+.aboutus-details
+{
+	font-size: 20px;
+	font-weight: 200;
+	padding-top: 20px;
+	text-align: center;	
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.helpClass
+{
+	padding: 20px;
+}
+.colorfulNeeded
+{
+	color: green;
+	font-size: 30px;
+	font-weight: 600;
+}
+.colorfulNeeded1
+{
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	text-shadow: 9px 5px 9px #000001;
+}
